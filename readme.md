@@ -30,5 +30,5 @@ The following parameters are used:
 To see the available parameters, use the following command:
 
 <code>
-java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar -h
+java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar -help
 </code>
