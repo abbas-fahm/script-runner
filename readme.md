@@ -3,7 +3,7 @@ To create the script runner, run:
 <code>mvn clean package</code>
 
 # Deploy
-To deploy the script runner, copy the /target/scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar to the desired server
+To deploy the script runner, copy the /target/scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar to the desired location
 
 # Run
 To run the script runner, use the following syntax:
