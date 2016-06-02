@@ -9,12 +9,13 @@ To deploy the script runner, copy the /target/scriptrunner-1.0-SNAPSHOT-jar-with
 To run the script runner, use the following syntax:
 
 <code>
-java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar <PARAMETERS>
+java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar \<PARAMETERS\>
 </code>
 
 This is a valid Command:
+
 <code>
-java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar -fileName <PATH TO SCRIPT> -dbName <DATABASE> -serverName <SERVER> -userName <USER> -password <PASSWORD>
+java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar -fileName \<PATH TO SCRIPT\> -dbName \<DATABASE\> -serverName \<SERVER\> -userName \<USER\> -password \<PASSWORD\>
 </code>
 
 The following parameters are used:
@@ -27,6 +28,7 @@ The following parameters are used:
 -password
 
 To see the available parameters, use the following command:
+
 <code>
 java -jar scriptrunner-1.0-SNAPSHOT-jar-with-dependencies.jar -h
 </code>
